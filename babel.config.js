@@ -6,12 +6,6 @@ module.exports = (api) => {
     ],
     plugins: [
       'module:react-native-dotenv',
-      {
-        allowUndefined: true,
-        moduleName: '@env',
-        path: '.env',
-        safe: false,
-      },
     ],
   };
 };
