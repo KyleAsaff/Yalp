@@ -23,6 +23,13 @@
         "react"
     ],
     "rules": {
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react/prop-types": [0],
+        "no-use-before-define": ["error", { "functions": false, "classes": true, "variables": false }]
+    },
+    "settings": {
+      "import/core-modules": [
+        "@expo/vector-icons"
+      ]
     }
 }
